@@ -56,6 +56,10 @@ dependencies {
     implementation(libs.androidx.navigation.compose)
     implementation(libs.kotlin.serialization.json)
 
+    //MAP
+    implementation(libs.maps.compose)
+    implementation(libs.play.services.maps)
+
     //TESTING
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
