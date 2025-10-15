@@ -12,7 +12,7 @@ object InoviMapsRetrofitInstance {
     }).build()
 
     private val retrofit by lazy {
-        Retrofit.Builder().baseUrl("http://192.168.1.5:3000/").addConverterFactory(
+        Retrofit.Builder().baseUrl("https://inovimap-api.onrender.com").addConverterFactory(
             GsonConverterFactory.create()
         ).client(client).build()
     }
