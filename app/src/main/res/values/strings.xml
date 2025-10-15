@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">InoviMaps</string>
+
+    <!-- START LOGIN SCREEN  -->
+    <string name="login_screen_app_title">INOVIMAPS</string>
+    <string name="login_screen_textfield_label_email">Email</string>
+    <string name="login_screen_textfield_placeholder_email">user@example.com</string>
+    <string name="login_screen_textfield_label_password">Contraseña</string>
+    <string name="login_screen_text_button">Iniciar Sesión</string>
+
+
+    <!-- END LOGIN SCREEN  -->
 </resources>
