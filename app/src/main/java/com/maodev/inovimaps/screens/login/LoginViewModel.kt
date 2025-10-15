@@ -17,7 +17,6 @@ class LoginViewModel : ViewModel() {
     fun onPasswordChanged(password: String) {
         _uiState.update { state -> state.copy(password = password) }
     }
-
 }
 
 
