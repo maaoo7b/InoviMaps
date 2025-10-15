@@ -14,11 +14,13 @@ loggingInterceptor = "4.11.0"
 mapsCompose = "1.0.0"
 navigationCompose = "2.9.3"
 kotlinSerialization = "1.8.1"
+navigationComposeVersion = "2.8.0"
 playServicesMaps = "18.0.2"
 retrofit = "2.9.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-navigation-compose-v280 = { module = "androidx.navigation:navigation-compose", version.ref = "navigationComposeVersion" }
 converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }

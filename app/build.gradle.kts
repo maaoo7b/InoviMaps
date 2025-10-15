@@ -55,6 +55,8 @@ dependencies {
     //NAVIGATION
     implementation(libs.androidx.navigation.compose)
     implementation(libs.kotlin.serialization.json)
+    implementation(libs.androidx.navigation.compose.v280)
+
 
     //MAP
     implementation(libs.maps.compose)
