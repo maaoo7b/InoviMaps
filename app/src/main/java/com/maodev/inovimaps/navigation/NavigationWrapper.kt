@@ -13,7 +13,6 @@ import com.maodev.inovimaps.screens.map.MapScreen
 @Composable
 fun NavigationWrapper() {
     val navController = rememberNavController()
-    val selectedDate by rememberSaveable { mutableStateOf("") }
     NavHost(navController = navController, startDestination = LoginScreen) {
         composable<LoginScreen> {
             LoginScreen(

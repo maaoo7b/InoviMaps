@@ -7,5 +7,5 @@ import retrofit2.http.POST
 
 interface InoviMapApiService {
     @POST("/login/users")
-    suspend fun login(@Body reques: loginRequest): loginResponse
+    suspend fun login(@Body request: loginRequest): loginResponse
 }
