@@ -60,6 +60,13 @@ dependencies {
     implementation(libs.maps.compose)
     implementation(libs.play.services.maps)
 
+    //RETROFIT
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
+    implementation(libs.logging.interceptor)
+    implementation(libs.kotlinx.coroutines.android)
+
+
     //TESTING
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
